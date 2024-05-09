@@ -1,0 +1,6 @@
+{
+  "script": "return (function(arg){\nvar s=function(){\"use strict\";function e(e){return e&&e.__esModule&&Object.prototype.hasOwnProperty.call(e,\"default\")?e.default:e}return e((function(){var e,n=0,t=0;return window.innerHeight?t=window.innerHeight:document.documentElement&&document.documentElement.clientHeight?t=document.documentElement.clientHeight:document.body&&document.body.clientHeight&&(t=document.body.clientHeight),window.innerWidth?n=window.innerWidth:document.documentElement&&document.documentElement.clientWidth?n=document.documentElement.clientWidth:document.body&&document.body.clientWidth&&(n=document.body.clientWidth),window.screen&&window.screen.orientation?e=window.screen.orientation.type.replace(/-primary$/,\"\"):null!=window.orientation&&(0===window.orientation?e=\"portrait\":180===window.orientation?e=\"portrait-secondary\":90===window.orientation?e=\"landscape\":-90===window.orientation&&(e=\"landscape-secondary\")),{viewportSize:{width:n,height:t},pixelRatio:window.devicePixelRatio,viewportScale:window.visualViewport&&window.visualViewport.scale,orientation:e}}))}();\nreturn s(arg)\n}).apply(null, arguments)",
+  "args": [
+    null
+  ]
+}

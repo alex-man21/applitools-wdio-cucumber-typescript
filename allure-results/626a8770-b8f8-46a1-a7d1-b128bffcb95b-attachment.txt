@@ -1,0 +1,11 @@
+{
+  "script": "return (function(arg){\nvar s=function(){\"use strict\";function t(t){return t&&t.__esModule&&Object.prototype.hasOwnProperty.call(t,\"default\")?t.default:t}var e=function(t){var e=void 0===t?[]:t,r=e[0],o=e[1],n=Object.keys(o).sort(),a=n.reduce((function(t,e){return t[e]={value:r.style.getPropertyValue(e),important:Boolean(r.style.getPropertyPriority(e))},t}),{});return n.forEach((function(t){r.style.setProperty(t,\"string\"!=typeof o[t]&&o[t]?o[t].value:o[t],o[t]&&o[t].important?\"important\":\"\")})),a},r=function(){var t=\"HTML\",e=document.scrollingElement;return e&&(t=e.tagName),t.toLowerCase()};return t((function(t){var o,n=(void 0===t?[]:t)[0];n!==document.documentElement&&n.tagName.toLowerCase()!==r()||(o=e([n,{transform:\"none\"}]));var a={width:n.scrollWidth,height:n.scrollHeight};return o&&e([n,o]),a}))}();\nreturn s(arg)\n}).apply(null, arguments)",
+  "args": [
+    [
+      {
+        "element-6066-11e4-a52e-4f735466cecf": "f.9FAD412688A330F2D338FE79A7725810.d.47A3720595C57AD9B7BF6D5E7726C08B.e.13",
+        "ELEMENT": "f.9FAD412688A330F2D338FE79A7725810.d.47A3720595C57AD9B7BF6D5E7726C08B.e.13"
+      }
+    ]
+  ]
+}

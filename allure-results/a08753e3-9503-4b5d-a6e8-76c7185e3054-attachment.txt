@@ -1,0 +1,6 @@
+{
+  "script": "return (function(arg){\nvar s=function(){\"use strict\";function t(t){return t&&t.__esModule&&Object.prototype.hasOwnProperty.call(t,\"default\")?t.default:t}function n(){return n=Object.assign?Object.assign.bind():function(t){for(var n=1;n<arguments.length;n++){var r=arguments[n];for(var e in r)Object.prototype.hasOwnProperty.call(r,e)&&(t[e]=r[e])}return t},n.apply(this,arguments)}var r=\"__EYES__APPLITOOLS__\",e=\"userAgent\";return window[r]=window[r]||{},t((function(){try{if(window[r][e]){var t=window[r][e];return\"WIP\"!==t.status&&delete window[r][e],JSON.stringify(t)}return window.navigator.userAgentData?(window[r][e]={status:\"WIP\"},window.navigator.userAgentData.getHighEntropyValues([\"brands\",\"platform\",\"platformVersion\",\"model\"]).then((function(t){window[r][e]={status:\"SUCCESS\",value:n({legacy:window.navigator.userAgent},t)}})).catch((function(t){window[r][e]={status:\"ERROR\",error:t.message}}))):window[r][e]={status:\"SUCCESS\",value:window.navigator.userAgent},JSON.stringify(window[r][e])}catch(t){return window[r][e]={status:\"ERROR\",error:t.message},JSON.stringify(window[r][e])}}))}();\nreturn s(arg)\n}).apply(null, arguments)",
+  "args": [
+    null
+  ]
+}

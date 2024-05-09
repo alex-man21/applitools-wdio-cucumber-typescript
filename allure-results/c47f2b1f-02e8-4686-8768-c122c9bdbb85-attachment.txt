@@ -1,0 +1,15 @@
+{
+  "script": "return (function(arg){\nvar s=function(){\"use strict\";function t(t){return t&&t.__esModule&&Object.prototype.hasOwnProperty.call(t,\"default\")?t.default:t}var r=function(t){var r=void 0===t?[]:t,o=r[0],e=r[1],l=Object.keys(e).sort(),n=l.reduce((function(t,r){return t[r]={value:o.style.getPropertyValue(r),important:Boolean(o.style.getPropertyPriority(r))},t}),{});return l.forEach((function(t){o.style.setProperty(t,\"string\"!=typeof e[t]&&e[t]?e[t].value:e[t],e[t]&&e[t].important?\"important\":\"\")})),n};return t((function(t){var o=void 0===t?[]:t,e=o[0],l=o[1];e=e||document.documentElement;var n=r([e,{\"scroll-behavior\":{value:\"auto\",important:!0}}]);return e.scrollTo?e.scrollTo(l.x,l.y):(e.scrollLeft=l.x,e.scrollTop=l.y),r([e,n]),{x:e.scrollLeft,y:e.scrollTop}}))}();\nreturn s(arg)\n}).apply(null, arguments)",
+  "args": [
+    [
+      {
+        "element-6066-11e4-a52e-4f735466cecf": "f.A7237E93BEA3D7839E47188B6C84BC2F.d.22E520C7158E19EFB0AC7DCFD9C98E88.e.8",
+        "ELEMENT": "f.A7237E93BEA3D7839E47188B6C84BC2F.d.22E520C7158E19EFB0AC7DCFD9C98E88.e.8"
+      },
+      {
+        "x": 0,
+        "y": 540
+      }
+    ]
+  ]
+}

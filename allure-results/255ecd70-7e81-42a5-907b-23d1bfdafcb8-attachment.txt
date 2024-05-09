@@ -1,0 +1,8 @@
+{
+  "script": "return (function(arg){\nvar s=function(){\"use strict\";function t(t){return t&&t.__esModule&&Object.prototype.hasOwnProperty.call(t,\"default\")?t.default:t}return t((function(t){var e=(void 0===t?[]:t)[0]||document.activeElement;return e&&e.blur(),e}))}();\nreturn s(arg)\n}).apply(null, arguments)",
+  "args": [
+    [
+      null
+    ]
+  ]
+}

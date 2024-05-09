@@ -1,0 +1,11 @@
+{
+  "script": "return (function(arg){\nvar s=function(){\"use strict\";function o(o){return o&&o.__esModule&&Object.prototype.hasOwnProperty.call(o,\"default\")?o.default:o}return o((function(o){var t=(void 0===o?[]:o)[0];return t?{x:t.scrollLeft,y:t.scrollTop}:{x:window.scrollX||window.pageXOffset,y:window.scrollY||window.pageYOffset}}))}();\nreturn s(arg)\n}).apply(null, arguments)",
+  "args": [
+    [
+      {
+        "element-6066-11e4-a52e-4f735466cecf": "f.8F37AE778CD85E1331E1BACE16D80895.d.F7C4C4918D289F86C9A0B924EA03AB6F.e.13",
+        "ELEMENT": "f.8F37AE778CD85E1331E1BACE16D80895.d.F7C4C4918D289F86C9A0B924EA03AB6F.e.13"
+      }
+    ]
+  ]
+}

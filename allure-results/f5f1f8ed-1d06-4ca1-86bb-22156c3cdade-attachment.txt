@@ -1,0 +1,6 @@
+{
+  "script": "return (function(arg){\nvar s=function(){\"use strict\";function t(t){return t&&t.__esModule&&Object.prototype.hasOwnProperty.call(t,\"default\")?t.default:t}var e=function(t){var e=(void 0===t?[]:t)[0],n=\"\",r=e.ownerDocument;if(!r)return n;for(var o=e;o!==r;){var a=Array.prototype.filter.call(o.parentNode.childNodes,(function(t){return t.tagName===o.tagName})).indexOf(o);n=\"/\"+o.tagName+\"[\"+(a+1)+\"]\"+n,o=o.parentNode}return n};return t((function(){var t,n,r;try{t=window.top.document===window.document||\"root-context\"===window.parent.document[\"applitools-marker\"]}catch(e){t=!1}try{n=!window.parent.document===window.document}catch(t){n=!0}if(!n)try{r=e([window.frameElement])}catch(t){r=null}return[document.documentElement,r,t,n]}))}();\nreturn s(arg)\n}).apply(null, arguments)",
+  "args": [
+    null
+  ]
+}

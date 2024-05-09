@@ -1,0 +1,11 @@
+{
+  "cmd": "Emulation.setDeviceMetricsOverride",
+  "params": {
+    "_size": {
+      "width": 1200,
+      "height": 600
+    },
+    "deviceScaleFactor": 0,
+    "mobile": false
+  }
+}

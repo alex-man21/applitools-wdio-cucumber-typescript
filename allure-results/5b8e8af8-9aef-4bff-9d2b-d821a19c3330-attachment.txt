@@ -1,0 +1,14 @@
+{
+  "script": "return (function(arg){\nvar s=function(){\"use strict\";function t(t){return t&&t.__esModule&&Object.prototype.hasOwnProperty.call(t,\"default\")?t.default:t}return t((function(t){var e=void 0===t?[]:t,r=e[0],o=e[1],n=Object.keys(o).sort(),u=n.reduce((function(t,e){return t[e]={value:r.style.getPropertyValue(e),important:Boolean(r.style.getPropertyPriority(e))},t}),{});return n.forEach((function(t){r.style.setProperty(t,\"string\"!=typeof o[t]&&o[t]?o[t].value:o[t],o[t]&&o[t].important?\"important\":\"\")})),u}))}();\nreturn s(arg)\n}).apply(null, arguments)",
+  "args": [
+    [
+      {
+        "element-6066-11e4-a52e-4f735466cecf": "f.8F37AE778CD85E1331E1BACE16D80895.d.F7C4C4918D289F86C9A0B924EA03AB6F.e.13",
+        "ELEMENT": "f.8F37AE778CD85E1331E1BACE16D80895.d.F7C4C4918D289F86C9A0B924EA03AB6F.e.13"
+      },
+      {
+        "overflow": "hidden"
+      }
+    ]
+  ]
+}

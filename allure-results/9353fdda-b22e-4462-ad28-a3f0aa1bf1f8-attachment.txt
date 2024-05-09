@@ -1,0 +1,10 @@
+{
+  "script": "return (function(arg){\nvar s=function(){\"use strict\";function t(t){return t&&t.__esModule&&Object.prototype.hasOwnProperty.call(t,\"default\")?t.default:t}return t((function(t){var e=(void 0===t?[]:t)[0];e&&e.focus()}))}();\nreturn s(arg)\n}).apply(null, arguments)",
+  "args": [
+    [
+      {
+        "element-6066-11e4-a52e-4f735466cecf": "f.9FAD412688A330F2D338FE79A7725810.d.47A3720595C57AD9B7BF6D5E7726C08B.e.1"
+      }
+    ]
+  ]
+}

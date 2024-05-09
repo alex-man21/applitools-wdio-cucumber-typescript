@@ -1,0 +1,9 @@
+{
+  "orientation": "landscape",
+  "pixelRatio": 2,
+  "viewportScale": 1,
+  "viewportSize": {
+    "height": 810,
+    "width": 1200
+  }
+}

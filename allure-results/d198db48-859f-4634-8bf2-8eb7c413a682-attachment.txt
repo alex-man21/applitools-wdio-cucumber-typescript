@@ -1,0 +1,12 @@
+{
+  "script": "return (function(arg){\nvar s=function(){\"use strict\";function t(t){return t&&t.__esModule&&Object.prototype.hasOwnProperty.call(t,\"default\")?t.default:t}var e=function(t){var e=void 0===t?[]:t,r=e[0],o=e[1];return(void 0===o?[]:o).reduce((function(t,e){return t[e]={value:r.style.getPropertyValue(e),important:Boolean(r.style.getPropertyPriority(e))},t}),{})};var r=function(t){var e=(void 0===t?[]:t)[0];return e?{x:e.scrollLeft,y:e.scrollTop}:{x:window.scrollX||window.pageXOffset,y:window.scrollY||window.pageYOffset}},o=function(t){var r=(void 0===t?[]:t)[0],o=void 0===r?document.documentElement:r,n=e([o,[\"transform\",\"-webkit-transform\"]]),i=Object.keys(n).reduce((function(t,e){var r=n[e].value;if(r){var o=r.match(/^translate\\s*\\(\\s*(\\-?[\\d, \\.]+)px\\s*(,\\s*(-?[\\d, \\.]+)px)?\\s*\\)/);if(o){var i=o[1],a=void 0!==o[3]?o[3]:0;t.push({x:Math.round(-parseFloat(i)),y:Math.round(-parseFloat(a))})}else t.push({x:0,y:0})}return t}),[]);if(!i.every((function(t){return i[0].x===t.x||i[0].y===t.y})))throw new Error(\"Got different css positions!\");return i[0]||{x:0,y:0}};var n=function(t){for(var e=(void 0===t?[]:t)[0];e.offsetParent&&e.offsetParent!==document.body&&e.offsetParent!==document.documentElement;)e=e.offsetParent;return\"fixed\"===window.getComputedStyle(e).getPropertyValue(\"position\")?e:null},i=function(t){var e=(void 0===t?[]:t)[0],n=r([e]),i=o([e]);return{x:n.x+i.x,y:n.y+i.y}},a=function(){var t=\"HTML\",e=document.scrollingElement;return e&&(t=e.tagName),t.toLowerCase()};return t((function(t){var e=void 0===t?[]:t,r=e[0],o=e[1],u=void 0!==o&&o;if(r===document.documentElement||r.tagName.toLowerCase()===a())return{x:0,y:0,width:r.clientWidth,height:r.clientHeight};var d=r.getBoundingClientRect(),l={x:d.left,y:d.top,width:d.width,height:d.height};if(u){var f=window.getComputedStyle(r);l.x+=parseInt(f.getPropertyValue(\"border-left-width\")),l.y+=parseInt(f.getPropertyValue(\"border-top-width\")),l.width=r.clientWidth,l.height=r.clientHeight}var s=n([r]);if(s){if(s!==r){var c=i([s]);l.x+=c.x,l.y+=c.y}}else{var v=i();l.x+=v.x,l.y+=v.y}return l}))}();\nreturn s(arg)\n}).apply(null, arguments)",
+  "args": [
+    [
+      {
+        "element-6066-11e4-a52e-4f735466cecf": "f.8F37AE778CD85E1331E1BACE16D80895.d.F7C4C4918D289F86C9A0B924EA03AB6F.e.15",
+        "ELEMENT": "f.8F37AE778CD85E1331E1BACE16D80895.d.F7C4C4918D289F86C9A0B924EA03AB6F.e.15"
+      },
+      false
+    ]
+  ]
+}
