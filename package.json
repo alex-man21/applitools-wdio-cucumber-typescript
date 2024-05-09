@@ -17,6 +17,6 @@
     "wdio": "wdio run ./wdio.conf.ts"
   },
   "dependencies": {
-    "@applitools/eyes-webdriverio": "^5.54.2"
+    "@applitools/eyes-webdriverio": "^5.54.3"
   }
 }
